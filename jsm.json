@@ -309,6 +309,156 @@
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
 		},
+      {
+            "key": "py_红果网页",
+            "name": "py_红果网页",
+            "type": 3,
+            "api": "./py/红果网页.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_甜圈短剧",
+            "name": "py_甜圈短剧",
+            "type": 3,
+            "api": "./py/甜圈短剧.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_绝对影视",
+            "name": "py_绝对影视",
+            "type": 3,
+            "api": "./py/绝对影视.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_LREEOK",
+            "name": "py_LREEOK",
+            "type": 3,
+            "api": "./py/LREEOK.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_爱瓜TVAPP",
+            "name": "py_爱瓜TVAPP",
+            "type": 3,
+            "api": "./py/爱瓜TVAPP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_hitvAPP",
+            "name": "py_hitvAPP",
+            "type": 3,
+            "api": "./py/hitvAPP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_美帕APP",
+            "name": "py_美帕APP",
+            "type": 3,
+            "api": "./py/美帕APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_三号动漫APP",
+            "name": "py_三号动漫APP",
+            "type": 3,
+            "api": "./py/三号动漫APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_光速APP",
+            "name": "py_光速APP",
+            "type": 3,
+            "api": "./py/光速APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_小苹果APP",
+            "name": "py_小苹果APP",
+            "type": 3,
+            "api": "./py/小苹果APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_悠悠APP",
+            "name": "py_悠悠APP",
+            "type": 3,
+            "api": "./py/悠悠APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_火车太顺APP",
+            "name": "py_火车太顺APP",
+            "type": 3,
+            "api": "./py/火车太顺APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_xpg",
+            "name": "py_xpg",
+            "type": 3,
+            "api": "./py/py_xpg.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_mp",
+            "name": "py_mp",
+            "type": 3,
+            "api": "./py/py_mp.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_LIVES",
+            "name": "py_LIVES",
+            "type": 3,
+            "api": "./py/LIVES.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
 		{
 			"key": "NanGua",
 			"name": "南瓜|弹幕",
