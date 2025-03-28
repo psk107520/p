@@ -36,7 +36,7 @@ class Spider(Spider):
         classes = []
         for item in data['data']:
             has_non_empty_field = False
-            item['soryby'] = ['updatetime', 'hits', 'score']
+            item['sortby'] = ['updatetime', 'hits', 'score']
             demos = ['时间', '人气', '评分']
             classes.append({"type_name": item["type_name"], "type_id": str(item["type_id"])})
             for key in dy:
