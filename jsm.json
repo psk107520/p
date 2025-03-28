@@ -326,11 +326,51 @@
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
 		},
+	    {
+            "key": "py_爱奇艺",
+            "name": "py_爱奇艺",
+            "type": 3,
+            "api": "./py/爱.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_优酷",
+            "name": "py_优酷",
+            "type": 3,
+            "api": "./py/优.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_腾讯",
+            "name": "py_腾讯",
+            "type": 3,
+            "api": "./py/腾.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_芒果",
+            "name": "py_芒果",
+            "type": 3,
+            "api": "./py/芒.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
       {
             "key": "py_金牌",
             "name": "金牌影视｜PY",
             "type": 3,
-            "api": "./py/py_金牌.py",
+            "api": "./py/金牌.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -389,6 +429,16 @@
             "changeable": 0
         },
         {
+            "key": "py_若惜追剧APP",
+            "name": "py_若惜追剧APP",
+            "type": 3,
+            "api": "./py/若惜追剧APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
             "key": "py_hitvAPP",
             "name": "py_hitvAPP",
             "type": 3,
@@ -429,10 +479,40 @@
             "changeable": 0
         },
         {
+            "key": "py_哇哇APP",
+            "name": "py_哇哇APP",
+            "type": 3,
+            "api": "./py/哇哇APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
             "key": "py_小苹果APP",
             "name": "py_小苹果APP",
             "type": 3,
             "api": "./py/小苹果APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_APPV2",
+            "name": "py_APPV2",
+            "type": 3,
+            "api": "./py/APPV2.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_皮皮虾APP",
+            "name": "py_皮皮虾APP",
+            "type": 3,
+            "api": "./py/皮皮虾APP.py",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
