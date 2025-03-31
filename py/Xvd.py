@@ -3,6 +3,8 @@
 import json
 import re
 import sys
+from urllib.parse import urlparse
+
 import requests
 from pyquery import PyQuery as pq
 from base64 import b64decode, b64encode
@@ -12,6 +14,7 @@ from base.spider import Spider
 
 
 class Spider(Spider):
+
     def init(self, extend=""):
         try:self.proxies = json.loads(extend)
         except:self.proxies = {}
@@ -194,7 +197,7 @@ class Spider(Spider):
 
     def playerContent(self, flag, id, vipFlags):
         ids=self.d64(id).split('@@@@')
-        if '.m3u8' in ids[1]:ids[1]=self.proxy(ids[1],'m3u8')
+        if '.m3u8' in ids[1]: ids[1] = self.proxy(ids[1], 'm3u8')
         return {'parse': int(ids[0]), 'url': ids[1], 'header': self.headers}
 
     def localProxy(self, param):
@@ -253,10 +256,14 @@ class Spider(Spider):
             data = requests.get(url, headers=self.headers, proxies=self.proxies).content.decode('utf-8')
         lines = data.strip().split('\n')
         last_r = url[:url.rfind('/')]
+        parsed_url = urlparse(url)
+        durl = parsed_url.scheme + "://" + parsed_url.netloc
         for index, string in enumerate(lines):
-            if '#EXT' not in string and 'http' not in string:
-                line = last_r + ('' if string.startswith('/') else '/') + string
-                lines[index] = self.proxy(line, string.split('.')[-1])
+            if '#EXT' not in string:
+                if 'http' not in string:
+                    domain=last_r if string.count('/') < 2 else durl
+                    string = domain + ('' if string.startswith('/') else '/') + string
+                lines[index] = self.proxy(string, string.split('.')[-1].split('?')[0])
         data = '\n'.join(lines)
         return [200, "application/vnd.apple.mpegur", data]
 

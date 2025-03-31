@@ -369,6 +369,74 @@
             "changeable": 0
         },
         {
+            "key": "py_花都",
+            "name": "py_花都",
+            "type": 3,
+            "api": "./py/花都.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_CliCli动漫APP",
+            "name": "py_CliCli动漫APP",
+            "type": 3,
+            "api": "./py/CliCli动漫APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_MiFunAPP",
+            "name": "py_MiFunAPP",
+            "type": 3,
+            "api": "./py/MiFunAPP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_云速影视APP",
+            "name": "py_云速影视APP",
+            "type": 3,
+            "api": "./py/云速影视APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        {
+            "key": "py_恋鱼影视APP",
+            "name": "py_恋鱼影视APP",
+            "type": 3,
+            "api": "./py/恋鱼影视APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_魔方影视APP",
+            "name": "py_魔方影视APP",
+            "type": 3,
+            "api": "./py/魔方影视APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        {
+            "key": "py_边缘影视APP",
+            "name": "py_边缘影视APP",
+            "type": 3,
+            "api": "./py/边缘影视APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
             "key": "py_LREEOK",
             "name": "py_LREEOK",
             "type": 3,

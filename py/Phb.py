@@ -4,6 +4,8 @@ import json
 import re
 import sys
 from base64 import b64decode, b64encode
+from urllib.parse import urlparse
+
 import requests
 from pyquery import PyQuery as pq
 from requests import Session
@@ -232,16 +234,14 @@ class Spider(Spider):
             data = requests.get(url, headers=self.headers, proxies=self.proxies).content.decode('utf-8')
         lines = data.strip().split('\n')
         last_r = url[:url.rfind('/')]
-        if len(lines) < 10:
-            filtered = [item for item in lines if '#EXT' not in item and item.strip()]
-            if len(filtered) == 1:
-                u = last_r + ('' if filtered[0].startswith('/') else '/') + filtered[0]
-                data = requests.get(u, headers=self.headers, proxies=self.proxies).content.decode('utf-8')
-                lines = data.strip().split('\n')
+        parsed_url = urlparse(url)
+        durl = parsed_url.scheme + "://" + parsed_url.netloc
         for index, string in enumerate(lines):
-            if '#EXT' not in string and 'http' not in string:
-                line = last_r + ('' if string.startswith('/') else '/') + string
-                lines[index] = self.proxy(line, 'ts')
+            if '#EXT' not in string:
+                if 'http' not in string:
+                    domain = last_r if string.count('/') < 2 else durl
+                    string = domain + ('' if string.startswith('/') else '/') + string
+                lines[index] = self.proxy(string, string.split('.')[-1].split('?')[0])
         data = '\n'.join(lines)
         return [200, "application/vnd.apple.mpegur", data]
 
