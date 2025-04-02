@@ -359,6 +359,16 @@
             "changeable": 0
         },
         {
+            "key": "py_剧多短剧APP",
+            "name": "py_剧多短剧APP",
+            "type": 3,
+            "api": "./py/剧多短剧APP.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
             "key": "py_绝对影视",
             "name": "py_绝对影视",
             "type": 3,
