@@ -342,24 +342,6 @@
     "quickSearch": 0,
     "filterable": 0
        },
-       {
-    "key": "py_4kvm",
-    "name": "py_4kvm",
-    "type": 3,
-    "api": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/py_spider/refs/heads/main/PyramidStore/plugin/custom/py_4kvm.py",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 0
-       },
-       {
-    "key": "py_短剧狗",
-    "name": "py_短剧狗",
-    "type": 3,
-    "api": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/py_spider/refs/heads/main/PyramidStore/plugin/custom/py_短剧狗.py",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 0
-       },
       {
             "key": "py_红果网页",
             "name": "py_红果网页",
