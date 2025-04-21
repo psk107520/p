@@ -315,6 +315,24 @@
                 "site": "https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
             }
         },	
+              {
+            "key": "py_剧粑粑",
+            "name": "剧粑粑｜PY",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/剧粑粑.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },	
+                      {
+            "key": "py_骚火电影",
+            "name": "骚火电影｜PY",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/骚火电影.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
        {
     "key": "py_偷乐短剧",
     "name": "py_偷乐短剧",
@@ -365,6 +383,24 @@
     "name": "py_国外剧APP",
     "type": 3,
     "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/国外剧APP.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0
+       },
+       {
+    "key": "py_零度影视APP",
+    "name": "py_零度影视APP",
+    "type": 3,
+    "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/零度影视APP.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0
+       },
+       {
+    "key": "py_奇迹APP",
+    "name": "py_奇迹APP",
+    "type": 3,
+    "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/奇迹APP.py",
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 0
@@ -861,6 +897,14 @@
 					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
 				}
 			},
+			{
+    "name": "🐮牛牛直播🐮",
+    "type": 0,
+    "url": "https://web.banye.tech:7777/tv/hlj.txt",
+    "ua": "okhttp/3.15",
+    "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+    "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+  },
 			{
 				"name": "最强国内直播",
 				"type": 0,
