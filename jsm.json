@@ -905,6 +905,27 @@
     "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
     "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
   },
+        {
+            "name": "IPTV345(python)",
+            "type": 3,
+            "api": "./py/iptv345.py",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.v1.mk/logo/{name}.png"
+        },
+        {
+            "name": "快直播体育(python)",
+            "type": 3,
+            "api": "./py/kzbty.py",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.v1.mk/logo/{name}.png"
+        },
+        {
+            "name": "快直播电视(python)",
+            "type": 3,
+            "api": "./py/kzb.py",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.v1.mk/logo/{name}.png"
+        },
 			{
 				"name": "最强国内直播",
 				"type": 0,
