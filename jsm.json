@@ -324,11 +324,29 @@
             "quickSearch": 1,
             "filterable": 1
         },	
-                      {
+      {
             "key": "py_骚火电影",
             "name": "骚火电影｜PY",
             "type": 3,
             "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/骚火电影.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+             {
+            "key": "py_柯南影视",
+            "name": "柯南影视｜PY",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/柯南影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+       {
+            "key": "py_4KAV",
+            "name": "4KAV｜PY",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/4KAV.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
