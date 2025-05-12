@@ -423,6 +423,15 @@
     "quickSearch": 0,
     "filterable": 0
        },
+       {
+    "key": "py_海马影视APP",
+    "name": "py_海马影视APP",
+    "type": 3,
+    "api": "https://slink.ltd/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/海马影视APPP.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0
+       },
       {
             "key": "py_红果网页",
             "name": "py_红果网页",
