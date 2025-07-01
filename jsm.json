@@ -332,6 +332,15 @@
             "quickSearch": 1,
             "filterable": 1
         },	
+              {
+            "key": "py_新荐片",
+            "name": "新荐片｜PY",
+            "type": 3,
+            "api": "./py/新荐片.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },	
       {
             "key": "py_骚火电影",
             "name": "骚火电影｜PY",
